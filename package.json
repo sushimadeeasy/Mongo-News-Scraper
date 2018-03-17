@@ -1,0 +1,31 @@
+{
+  "name": "mongo-news-scraper",
+  "version": "1.0.0",
+  "description": "A mongoose and cheerio based news scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushimadeeasy/Mongo-News-Scraper.git"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "Sushant Srikrish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sushimadeeasy/Mongo-News-Scraper/issues"
+  },
+  "homepage": "https://github.com/sushimadeeasy/Mongo-News-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.10",
+    "npm": "^5.7.1",
+    "request": "^2.85.0"
+  }
+}
